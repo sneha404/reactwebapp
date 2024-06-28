@@ -1,0 +1,450 @@
+.r1 {
+    background: #FE4D28;
+    color: #fff;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+
+.r1 span {
+    margin-right: 10px;
+}
+
+.fa-envelope,
+.fa-phone {
+    margin-right: 10px;
+}
+
+.c1 {
+    padding-left: 10em;
+
+}
+
+.c3 {
+    display: flex;
+    justify-content: end;
+    padding-right: 10em;
+
+}
+
+.sec1 .icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    outline: 2px solid #fff;
+    border-radius: 50px;
+    background: #ffffff43;
+    outline: none;
+
+}
+
+.r2 {
+    border-bottom: 2px solid black;
+}
+
+.c4 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 8em;
+}
+
+.c4 span {
+    color: #FE4D28;
+}
+
+.c5 button {
+    margin-right: 10px;
+}
+
+.r2 {
+    padding: 18px;
+}
+
+.c5 button:nth-child(1) {
+    color: #FE4D28;
+
+}
+
+.c5 button:nth-child(1),
+.c5 button:nth-child(2),
+.c5 button:nth-child(3),
+.c5 button:nth-child(4),
+.c5 button:nth-child(5),
+.c5 button:nth-child(6),
+.c5 button:nth-child(7) {
+    border: unset;
+    background: unset;
+    font-weight: 500;
+}
+
+.c5 button:nth-child(8) {
+    background: #FE4D28;
+    color: #fff;
+    border: unset;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.c5 button:hover {
+    background: #FE4D28;
+    color: #fff;
+    border: unset;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.img {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/medium-shot-people-working-desk.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+
+.prev {
+    width: 80px;
+    height: 80px;
+    font-weight: 600;
+    background: #ffffff51;
+    border-radius: 50px;
+    color: #fffffff9;
+    border: unset;
+    position: absolute;
+    bottom: 350px;
+}
+
+.text1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+
+.text2 {
+    font-weight: 700;
+    font-size: 60px;
+    width: 1000px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    color: #fff;
+}
+
+.gs {
+    background-color: #FE4D28;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+}
+
+.ow {
+    background-color: black;
+    color: #fff;
+    border-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 450px;
+    left: 500px;
+}
+
+.next {
+    width: 80px;
+    height: 80px;
+    font-weight: 600;
+    background: #ffffff51;
+    border-radius: 50px;
+    color: #fffffff9;
+    border: unset;
+    position: absolute;
+    bottom: 350px;
+    right: 10px;
+}
+
+.r3 {
+    background: url(../images/medium-shot-people-working-desk.jpg);
+    background-size: cover;
+
+}
+
+.r3 .img {
+    background: rgba(0, 0, 0, 0.518);
+}
+
+.icons1 {
+    width: 100px;
+    height: 100px;
+    outline: 2px solid black;
+    border-radius: 51% 49% 71% 29% / 51% 48% 52% 49%;
+    padding: 30px;
+    background: #FE4D28;
+    outline: none;
+    margin-right: 10px;
+
+}
+
+.fa-search,
+.fa-camera,
+.fa-microphone {
+    font-size: 40px;
+    color: #fff;
+}
+
+.myflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.myflex .dm {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.photo {
+    --w: 400px;
+    width: var(--w);
+    height: var(--w);
+    background-color: gray;
+    border-radius: 54% 46% 46% 54% / 50% 37% 63% 50%;
+    background: url(../images/happy-co-workers-close-window.jpg);
+    background-size: cover;
+    background-position: right;
+    box-shadow: -15px 10px 0 #FE4D28;
+    margin: auto;
+}
+
+.photo:hover {
+    filter: grayscale();
+}
+
+
+.r4 {
+    padding: 100px 200px;
+}
+
+.r5 {
+    background-image: url(../images/medium-shot-people-working-desk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r5 .row {
+    background-color: #fe4c28c9;
+    padding: 50px 200px;
+}
+
+.numbers {
+    font-size: 44px;
+    font-weight: 800;
+    color: #fff;
+
+}
+
+.r5 .txt3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.r6 .txt4 {
+    color: #FE4D28;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.r6 .txt5 {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.r6 .txt6 {
+
+    color: gray;
+    padding: 20px 500px;
+}
+
+
+.r6 {
+    padding: 70px;
+}
+
+.box1 {
+    outline: 2px solid black;
+    padding: 30px 20px;
+    margin-top: 20px;
+    box-shadow: 2px 4px 6px #0000003b;
+    outline: none;
+    text-align: center;
+
+}
+
+
+
+.icon1 {
+    outline: 2px solid #FE4D28;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FE4D28;
+    color: #fff;
+    font-size: 54px;
+    border-radius: 51% 49% 71% 29% / 51% 48% 52% 49%;
+    margin: auto;
+}
+
+.box1:hover {
+    background-color: #FE4D28;
+    color: #fff;
+    transition: all .3s;
+}
+
+.box1:hover .icon1 {
+    background-color: #fff;
+    transition: all .3s;
+    color: #FE4D28;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.r7 {
+    text-align: center;
+}
+
+.r7 .txt1 {
+    color: #FE4D28;
+    font-weight: 700;
+}
+
+.r7 .txt2 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.r7 .txt3 {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.r7 .imgcc {
+    background: linear-gradient(transparent, black);
+    height: 400px;
+}
+
+.r7 .img1 {
+    background: url(../images/businesswoman-posing.jpg);
+    background-size: cover;
+    background-position: center -30px;
+
+}
+
+.r7 .img2 {
+    background: url(../images/happy-co-workers-close-window.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r7 .img3 {
+    background: url(../images/medium-shot-people-working-desk.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.r7 .col-lg-6 {
+    padding: 0;
+}
+
+.r7 .col-lg-3:nth-child(4) {
+    padding-right: 5px;
+}
+
+.r7 .col-lg-3:nth-child(6) {
+    padding-left: 5px;
+}
+
+.r7 .cc {
+    position: relative;
+}
+
+.r7 .consult {
+    position: absolute;
+    bottom: 0;
+    padding: 1em;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5em;
+
+}
+
+.r7 .consult .line {
+    width: 50px;
+    height: 4px;
+    background-color: #FE4D28;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.r7 .consult .wd {
+    font-weight: 200;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.r7 .dots {
+    width: 150px;
+    height: 10px;
+
+    margin: 10px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.r7 .dots div {
+    width: 10px;
+    height: 100%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.r7 .dots div:nth-child(4) {
+
+    background-color: #FE4D28;
+}
+
+
+
+@media (max-width:720px) {
+    .r4 {
+        padding: 10px;
+    }
+}
