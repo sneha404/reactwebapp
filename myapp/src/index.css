@@ -441,10 +441,303 @@
     background-color: #FE4D28;
 }
 
+.r7 {
+    background: rgba(128, 128, 128, 0.084);
+    padding: 50px;
+}
+
+.r8 {
+    text-align: center;
+    padding: 70px;
+
+}
+
+.r8 .txt1 {
+    color: #FE4D28;
+    font-size: 20px;
+}
+
+.r8 .txt2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.r8 .txt3 {
+    width: 70%;
+    margin: auto;
+}
+
+.r8 .imgc {
+
+    height: 300px;
+    margin-top: 50px;
+}
+
+.r8 .img1 {
+    background: url(../images/young-successful-businessman-formal-wear-showing-thumb-up-gesture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r8 .img2 {
+    background: url(../images/business-man-curly-cute-handsome-guy-black-suit-red-tie-smiling-pointing-left.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r8 .img3 {
+    background: url(../images/young-handsome-business-man-with-laptop-office.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r8 .txt4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+
+
+}
+
+
+.r8 .img1:hover,
+.r8 .img2:hover,
+.r8 .img3:hover {
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+
+
+.r8 .post {
+    color: gray;
+}
+
+.r9 {
+    text-align: center;
+
+
+}
+
+.r9 .row {
+    background: #101024dd;
+    padding: 100px 0;
+}
+
+.r9 {
+    background: url(../images/medium-shot-people-working-desk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r9 .pic {
+    width: 100px;
+    height: 100px;
+    background: url(../images/businesswoman-posing.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 30px auto;
+
+}
+
+.r9 .txt5 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.r9 .post {
+    font-size: 20px;
+    color: #FE4D28;
+}
+
+.r9 .txt6 {
+    color: #fff;
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.r9 .cc1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r9 .ico {
+    color: #FE4D28;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.r9 .icon {
+
+    display: inline;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+
+.r9 .icon:nth-child(1) {
+    color: #FE4D28;
+}
+
+.r10 {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.r10 .txt1 {
+    color: #FE4D28;
+    font-size: 18px;
+}
+
+.r10 .txt2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.r10 .w-50 {
+    color: gray;
+}
+
+.r10 .box {
+    position: relative;
+    font-family: sans-serif;
+    box-shadow: 2px 4px 6px #00000089;
+}
+
+.r10 .img1 {
+    height: 300px;
+    background-image: url(../images/bussiness-people-working-team-office.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r10 .img2 {
+    height: 300px;
+    background-image: url(../images/businesswoman-posing.jpg);
+    background-size: cover;
+    background-position: center -30px;
+}
+
+.r10 .img3 {
+    height: 300px;
+    background-image: url(../images/medium-shot-people-working-desk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r10 .box .txt1 {
+    background-color: #FE4D28;
+    font-size: 20px;
+    color: #fff;
+    width: max-content;
+    padding: .2em 1em;
+    border-radius: 1em;
+    position: absolute;
+    font-weight: 700;
+
+    top: 20px;
+    left: 20px;
+
+}
+
+.r10 .box .txt2 {
+    font-size: 18px;
+    color: #FE4D28;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+.r10 .box .txt3 {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.r10 .box .txt4 {
+    color: gray;
+}
+
+.r10 .boxa {
+    padding: 20px;
+    text-align: start;
+}
+
+.r11 {
+    text-align: center;
+
+}
+
+.r11 {
+
+    background: url(../images/medium-shot-people-working-desk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.r11 .row {
+    background: #101024dd;
+    padding: 80px 0;
+
+}
+
+.r11 .txt1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.r11 span {
+    color: #FE4D28;
+}
+
+.r11 .txt2 {
+    color: #ffffff94;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.r11 .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    outline: 2px solid #fff;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.148);
+    outline: none;
+    margin-top: 20px;
+}
+
+.r11 .text {
+    display: inline-flex;
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.r11 .line {
+
+    outline: 1px solid;
+    color: #ffffff2a;
+    margin-top: 60px;
+}
 
 
 @media (max-width:720px) {
     .r4 {
         padding: 10px;
     }
+
 }
