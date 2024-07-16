@@ -33,64 +33,18 @@ const arrA = [
   }
 ]
 
-
-const arrB = [
-  {
-    te: 'Get to Know Us',
-    li: [
-      'About Us',
-      'Careers',
-      'Press Releases',
-      'Amazon Science'
-    ]
-  },
-  {
-    te: 'Connect with Us',
-    li: [
-      'Facebook',
-      'Twitter',
-      'Instagram',
-    ]
-  },
-  {
-    te: 'Make Money with Us',
-    li: [
-      'Sell on Amazon',
-      'Sell under Amazon Accelerator',
-      'Protect and Build Your Brand',
-      'Amazon Global Selling',
-      'Become an Affiliate',
-      'Fulfilment by Amazon',
-      'Advertise Your Products',
-      'Amazon Pay on Merchants',
-    ]
-  },
-  {
-    te: 'Let Us Help You',
-    li: [
-      'COVID - 19 and Amazon',
-      'Your Account',
-      'Returns Centre',
-      'Recalls and Product Safety Alerts',
-      '100 % Purchase Protection',
-      'Amazon App Download',
-      'Help',
-    ]
-  },
-]
-
 export default function App() {
   return (
     <>
       <div className="container-fluid sec1">
-        <div className="row r1">
-          <div className="col-lg-6 c1">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <span>info@example.com</span>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <span>123 456-7890</span>
-          </div>
-          <div className="col-lg-6">
+        <div className="row">
+          <div className="r1">
+            <div className="c1">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>info@example.com</span>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>123 456-7890</span>
+            </div>
             <div className="c3">
               <div className="icons">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -126,16 +80,27 @@ export default function App() {
 
         <div className="row r3">
           <div className="img">
-            <button className='prev'>PREV</button>
-            <div className='text1'>WE CRAFT DIGITAL EXPERIANCES</div>
-            <div className="text2">DESIGN DRIVEN FOR PROFESSIONALS</div>
-            <button className='gs'>GET STARTED</button>
-            <button className='ow'>OUR WORK</button>
-            <button className='next'>NEXT</button>
+            <div className="row">
+              <div className="col cc">
+                <button className='nextcc'>PREV</button>
+              </div>
+              <div className="col-8 cc2">
+                <div className='txt1'>WE CRAFT DIGITAL EXPERIANCES</div>
+                <div className="txt2">DESIGN DRIVEN FOR PROFESSIONALS</div>
+                <div>
+                  <button className='txt3'>GET STARTED</button>
+                  <button className='txt4'>OUR WORK</button>
+                </div>
+              </div>
+              <div className="col cc">
+                <button className='nextcc'>NEXT</button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className=" row r4">
+
+        <div className="row r4">
 
           <div className="col-lg-6">
             <div className='myflex'>
@@ -236,7 +201,7 @@ export default function App() {
             WHAT WE DO ?
           </div>
           <div className="col-lg-12 mb-5">
-            <div className="w-50 m-auto text-center">
+            <div className="m-auto text-center r6a">
               Contrary to popular belief. lorem ipsum is not a simply random text.It has
               roots in a piece of classical latin literature from 45 BC, making it over
               2000 years old
@@ -284,39 +249,27 @@ export default function App() {
             </div>
           </div>
           <div className="col-lg-3 cc">
-            <div className="img1 ">
-              <div className="imgcc">
-                <div className="consult">
-                  <div>Consulting Marketing</div>
-
-                  <div className='wd'><div className='line'></div>  Website Design</div>
-                </div>
+            <div className="img1 imgcc">
+              <div className="consult">
+                <div>Consulting Marketing</div>
+                <div className='wd'><div className='line'></div>  Website Design</div>
               </div>
-
-
             </div>
           </div>
           <div className="col-lg-6 cc">
-            <div className="img2">
-              <div className="imgcc">
-                <div className="consult">
-                  <div>Consulting Marketing</div>
-                  <div className='wd'><div className='line'></div>  Website Design</div>
-                </div>
+            <div className="img2 imgcc">
+              <div className="consult">
+                <div>Consulting Marketing</div>
+                <div className='wd'><div className='line'></div>  Website Design</div>
               </div>
-
             </div>
           </div>
           <div className="col-lg-3 cc">
-            <div className="img3 ">
-              <div className="imgcc">
-                <div className="consult">
-                  <div>Consulting Marketing</div>
-
-                  <div className='wd'><div className='line'></div>  Website Design</div>
-                </div>
+            <div className="img3 imgcc">
+              <div className="consult">
+                <div>Consulting Marketing</div>
+                <div className='wd'><div className='line'></div>  Website Design</div>
               </div>
-
             </div>
           </div>
 
