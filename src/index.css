@@ -758,8 +758,8 @@
     }
 
 
-    .photo {
-        --w: 260px;
+    body {
+        overflow: hidden;
     }
 
 }
