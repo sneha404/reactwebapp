@@ -735,6 +735,10 @@
         padding: 50px;
     }
 
+    .r3 {
+        background-position: -534px center;
+    }
+
     .r3 .row {
         flex-direction: column;
     }
@@ -744,8 +748,9 @@
     }
 
     .r3 .txt2 {
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 35px;
+        line-height: 40px;
+        width: 217px;
     }
 
     .r3 .txt3 {
