@@ -742,7 +742,8 @@
     }
 
     .r3 .txt2 {
-        font-size: 50px;
+        font-size: 36px;
+        line-height: 36px;
     }
 
     .r3 .txt3 {
@@ -758,8 +759,8 @@
     }
 
 
-    body {
-        overflow-x: hidden;
+    .photo {
+        --w: 280px;
     }
 
 }
